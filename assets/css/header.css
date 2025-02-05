@@ -1,0 +1,53 @@
+header {
+    background-color: var(--secondary-color);
+    padding: var(--gap);
+    box-shadow: 0rem 0.0625rem 0.4375rem rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0rem;
+    width: 100%;
+}
+
+header .hamburguer {
+    width: 3.125rem;
+    cursor: pointer;
+
+    div {
+        background-color: var(--primary-color);
+        width: 1.875rem;
+        height: 0.125rem;
+        margin: 0.3125rem 0;
+    }
+}
+
+header figure {
+    width: 12.5rem;
+}
+
+header nav.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav ul {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+header nav ul a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0.625rem;
+    padding: 0.625rem;
+    width: 100%;
+    transition: 0.5s;
+    border-radius: 0.3125rem;
+
+    &:hover {
+        background-color: var(--primary-color);
+        color: white;
+    }
+}
