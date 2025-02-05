@@ -10,6 +10,8 @@
 
 @import url(header.css);
 
+@import url(hero.css);
+
 /* las mediaquerys.css tienen que ser siempre el ultimo import */
 
 @import url(mediaquerys.css);
