@@ -9,3 +9,7 @@
 @import url(layout.css);
 
 @import url(header.css);
+
+/* las mediaquerys.css tienen que ser siempre el ultimo import */
+
+@import url(mediaquerys.css);

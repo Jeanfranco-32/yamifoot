@@ -1,0 +1,20 @@
+@media(width>=62rem) {
+    header .hamburguer {
+        display: none;
+    }
+
+    header nav ul {
+        width: calc(100% - 12.5rem);
+        display: flex;
+        margin-top: 0.625rem;
+        justify-content: flex-end;
+    }
+
+    header nav ul li {
+        margin: 0rem 0.625rem;
+    }
+
+    header nav ul a {
+        padding: 0.625rem 1.25rem;
+    }
+}
