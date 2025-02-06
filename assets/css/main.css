@@ -111,3 +111,27 @@ main .secciones {
         transition: 2s;
     }
 }
+
+#contact {
+    background-color: var(--primary-color);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 0.9375rem;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+    }
+}
