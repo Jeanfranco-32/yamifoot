@@ -31,4 +31,14 @@
     #galery .grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    #contact .icons a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #contact .icons span {
+        display: inline;
+
+    }
 }

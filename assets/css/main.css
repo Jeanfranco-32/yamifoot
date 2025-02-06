@@ -114,6 +114,28 @@ main .secciones {
 
 #contact {
     background-color: var(--primary-color);
+    padding: 1.25rem 0px;
+
+    .mapa {
+        margin-top: 1.25rem;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-around;
+
+        span {
+            display: none;
+        }
+
+        i {
+            padding: 0.9375rem;
+            display: inline-block;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 1);
+            color: var(--primary-color);
+        }
+    }
 }
 
 footer {
