@@ -64,3 +64,34 @@ main .secciones {
         font-size: 120%;
     }
 }
+
+/* inicio de seccion galeria */
+
+#galery .grid {
+    padding: 1.25rem;
+    display: grid;
+    gap: var(--gap);
+}
+
+#galery .grid article {
+    position: relative;
+
+    .content {
+        position: absolute;
+        width: 100%;
+        background-color: var(--primary-color);
+        color: white;
+        padding: 0.9375rem;
+        bottom: 0;
+    }
+
+    h3 {
+        font-size: 150%;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-family: var(--secondary-font);
+        font-size: 200%
+    }
+}

@@ -1,3 +1,9 @@
+@media(width>=48rem) {
+    #galery .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media(width>=62rem) {
     header .hamburguer {
         display: none;
@@ -20,5 +26,9 @@
 
     #about .container {
         flex-direction: row;
+    }
+
+    #galery .grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
