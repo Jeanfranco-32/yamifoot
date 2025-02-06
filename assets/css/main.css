@@ -43,3 +43,24 @@ main .secciones {
         color: var(--text-color);
     }
 }
+
+#calltoaction {
+    background-image: url(/assets/images/qt-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    padding: 5rem 0rem;
+    text-align: center;
+    color: white;
+
+    blockquote {
+        font-style: italic;
+        font-size: 150%;
+        font-family: var(--secondary-font);
+        margin-bottom: var(--gap);
+        line-height: 1.5rem;
+    }
+
+    author {
+        font-size: 120%;
+    }
+}
